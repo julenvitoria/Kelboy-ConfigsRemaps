@@ -1,0 +1,54 @@
+; InputAutoCfg.ini for Mupen64Plus SDL Input plugin
+
+; Keyboard_START
+[Keyboard]
+plugged = True
+plugin = 2
+mouse = False
+DPad R = key(100)
+DPad L = key(97)
+DPad D = key(115)
+DPad U = key(119)
+Start = key(13)
+Z Trig = key(122)
+B Button = key(306)
+A Button = key(304)
+C Button R = key(108)
+C Button L = key(106)
+C Button D = key(107)
+C Button U = key(105)
+R Trig = key(99)
+L Trig = key(120)
+Mempak switch = key(44)
+Rumblepak switch = key(46)
+X Axis = key(276,275)
+Y Axis = key(273,274)
+; Keyboard_END
+
+
+
+
+
+
+
+; Arduino LLC Arduino Leonardo_START 
+[Arduino LLC Arduino Leonardo]
+plugged = True
+plugin = 2
+mouse = False
+AnalogDeadzone = 4096,4096
+AnalogPeak = 32768,32768
+Mempak switch = 
+Rumblepak switch = 
+L Trig = button(3) 
+Z Trig = button(4) 
+R Trig = button(2) 
+B Button = button(12) 
+C Button U = button(13) 
+Start = button(7) 
+A Button = button(14) 
+C Button D = button(15) 
+X Axis = button(9, 8) 
+Y Axis = button(11, 10) 
+; Arduino LLC Arduino Leonardo_END 
+
